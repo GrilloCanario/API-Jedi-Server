@@ -11,7 +11,7 @@ Por tanto, esta práctica puntuará cada parte en el módulo correspondiente.
 
 El tema es libre (que sea original y diferente de "clientes").
 
-Se pide como mínimo, que no es poco:
+Se pide como mínimo, que no es poco: 
     - Realizar la API completa: GET (listado e individual), POST, PUT y DELETE
     - Tratar que la API controle o detecte errores y seguir las recomendaciones (códigos de estado, mensajes de error, etc.).
     - Realizar la página del lado del cliente que permita la gestión del recurso: ver, crear, modificar, borrar.
