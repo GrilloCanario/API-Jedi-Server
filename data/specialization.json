@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "Lenguajes de Servicios de la HoloNet (PHP)",
+        "objectives": "Gestión de datos, servidores, sistemas administrativos galácticos"
+    },
+    {
+        "id": 2,
+        "name": "Programación de Núcleos de Droides y Sistemas Críticos (Java)",
+        "objectives": "IA, control de naves, sistemas de combate, estabilidad"
+    },
+    {
+        "id": 3,
+        "name": "Interfaces Holográficas Dinámicas (JavaScript)",
+        "objectives": "Paneles de control, hologramas interactivos, consolas táctiles"
+    },
+    {
+        "id": 4,
+        "name": "Lenguaje de Estructuración Holográfica (HTML)",
+        "objectives": "Estructuración de información en la HoloNet, organización de paneles de control y archivos Jedi, definición de jerarquías visuales en interfaces de naves y terminales"
+    },
+    {
+        "id": 5,
+        "name": "Protocolo de Estilo Holográfico Adaptativo (CSS)",
+        "objectives": "Estética de interfaces holográficas, adaptación visual a especies, resoluciones y entornos, control de colores, animaciones, legibilidad y ergonomía"
+    }
+
+]
