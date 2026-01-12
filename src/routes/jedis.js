@@ -30,7 +30,7 @@ router.delete('/:id', (req, res) => {
 router.post('/', (req, res) => {
     console.log('body:', req.body)
     const newJedis = req.body;
-    if (newJedis.name && newJedis.species) {
+    if (newJedis.name && newJedis.species && newJedis.rank && newJedis.styleForm && newJedis.specialization) {
         let maximo = Math.max(...jedis.map(j => j.id));
         newJedis.id = maximo+1;
         jedis.push(newJedis);
@@ -45,11 +45,17 @@ router.put('/:id', (req, res) => {
     let id = req.params.id;
     const existJedi = req.body.name;
     const jediSpecie = req.body.species;
+    const jediRank = req.body.rank;
+    const jediStyle = req.body.styleForm;
+    const jediSpec = req.body.specialization;
     let jedi = jedis.find(j => j.id == id);
 
     if(jedi){
         jedi.name = existJedi;
         jedi.species = jediSpecie;
+        jedi.rank = jediRank;
+        jedi.styleForm = jediStyle;
+        jedi.specialization = jediSpec;
         res.status(200).json(jedi);
     } else {
         res.status(400).json({error: 'No existe este Jedi'})

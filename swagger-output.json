@@ -45,6 +45,15 @@
                 "species": {
                   "example": "any"
                 },
+                "rank": {
+                  "example": "any"
+                },
+                "styleForm": {
+                  "example": "any"
+                },
+                "specialization": {
+                  "example": "any"
+                },
                 "id": {
                   "example": "any"
                 }
@@ -117,6 +126,15 @@
                   "example": "any"
                 },
                 "species": {
+                  "example": "any"
+                },
+                "rank": {
+                  "example": "any"
+                },
+                "styleForm": {
+                  "example": "any"
+                },
+                "specialization": {
                   "example": "any"
                 }
               }
